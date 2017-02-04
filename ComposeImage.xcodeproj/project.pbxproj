@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		226539CA1E45623000FD2862 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226539C91E45623000FD2862 /* SecViewController.m */; };
+		226539D01E45A33100FD2862 /* UIImage+Composition.m in Sources */ = {isa = PBXBuildFile; fileRef = 226539CF1E45A33100FD2862 /* UIImage+Composition.m */; };
 		22ECE2C51E44333300D4D1DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECE2C41E44333300D4D1DD /* main.m */; };
 		22ECE2C81E44333300D4D1DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECE2C71E44333300D4D1DD /* AppDelegate.m */; };
 		22ECE2CB1E44333300D4D1DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECE2CA1E44333300D4D1DD /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		226539C81E45623000FD2862 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
 		226539C91E45623000FD2862 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		226539CE1E45A33100FD2862 /* UIImage+Composition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Composition.h"; sourceTree = "<group>"; };
+		226539CF1E45A33100FD2862 /* UIImage+Composition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Composition.m"; sourceTree = "<group>"; };
 		22ECE2C01E44333300D4D1DD /* ComposeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComposeImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ECE2C41E44333300D4D1DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22ECE2C61E44333300D4D1DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				22ECE2C31E44333300D4D1DD /* Supporting Files */,
 				226539C81E45623000FD2862 /* SecViewController.h */,
 				226539C91E45623000FD2862 /* SecViewController.m */,
+				226539CE1E45A33100FD2862 /* UIImage+Composition.h */,
+				226539CF1E45A33100FD2862 /* UIImage+Composition.m */,
 			);
 			path = ComposeImage;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226539D01E45A33100FD2862 /* UIImage+Composition.m in Sources */,
 				226539CA1E45623000FD2862 /* SecViewController.m in Sources */,
 				22ECE2CB1E44333300D4D1DD /* ViewController.m in Sources */,
 				22ECE2C81E44333300D4D1DD /* AppDelegate.m in Sources */,
